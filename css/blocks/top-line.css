@@ -1,0 +1,42 @@
+.top-line {
+    min-height: 411px;
+    display: flex;
+    margin-bottom: 98px;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url(../../img/headline\ 1.png) right 50% top no-repeat, #001821;
+}
+
+.top-line__container {
+    display: flex;
+    flex: 1;
+    flex-direction:column;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+
+.top-line__header {
+    margin-bottom: 0;
+}
+
+.top-line__logo {
+    height: 42px;
+    width: 98px;
+    margin-right: 65px;
+}
+
+.top-line__menu {
+    margin-top: 16px;
+    margin-right: 523px;
+}
+
+.top-line__contacts {
+    color: #FFFFFF;
+    padding-top: 9px;
+}
+
+.top-line__workshedule {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+}

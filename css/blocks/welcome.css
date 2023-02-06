@@ -1,0 +1,61 @@
+.welcome {
+    align-items: center;
+    justify-content: center;
+    background: url(../../img/welcome.png) right 50% top no-repeat;
+}
+
+.welcome__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.welcome__logo {
+    width: 279px;
+    height: 120px;
+    margin-right: 0;
+}
+
+.welcome__text {
+    font-size: 18px;
+    line-height: 12px;
+    text-align: center;
+    margin-bottom: 52px;
+}
+
+.welcome__text-box {
+    text-align: center;
+}
+
+.welcome__container {
+    animation: myAnimation 0.8s;
+}
+
+@keyframes myAnimation {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    20% {
+        transform: scale(1.2);
+            }
+
+    40% {
+        transform: scale(0.8);
+    }
+
+    60% {
+        transform: scale(1.2);
+    }
+    
+    80% {
+        transform: scale(0.9);
+        
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

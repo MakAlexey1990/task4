@@ -1,0 +1,90 @@
+.paginator {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginator__list {
+    display: flex;
+    justify-items: center;
+}
+
+.paginator__display {
+    margin-right: 26px;
+    padding-left: 40px;
+}
+
+.paginator__displays {
+    margin-right: 26px;
+    padding-left: 9px;
+}
+
+.paginator__link {
+    display: block;
+    color: inherit;
+    background: transparent;
+    border-radius: 50%;
+    padding: 0 10px;
+    line-height: 32px;
+    width: 32px;
+    height: 32px;
+    font-weight: 700;
+    transition: background-color .4s, color .4s;
+    text-align: center;
+}
+
+.paginator__link:hover {
+    background:  #FFFFFF;
+    color: #F5170E;
+}
+
+.pager--theme--light {
+    color: #000000;
+    margin-bottom: 86px;
+}
+
+.pager--theme--light paginator__display {
+    margin-left: 0;
+}
+
+.pager--theme--light .pager__item--active .paginator__link {
+    color: #FFFFFF;
+    background: #F5170E;
+}
+
+.pager--theme--light .paginator__link:hover {
+    color: #FFFFFF;
+    background: #F5170E;
+    transition-delay: 0.3s;
+}
+
+.paginator__item {
+    font-size: 16px;
+    line-height: 21px;
+    margin-right: 2px;
+}
+
+.paginator__item:last-child {
+    margin-right: 0;
+}
+
+.pager--theme--reviews {
+    color: #000000;
+    padding-right: 31px;
+}
+
+.pager--theme--reviews .paginator__display {
+    margin-left: 0;
+}
+
+.pager--theme--reviews .pager__item--active .paginator__link {
+    color: #FFFFFF;
+    background: #F5170E;
+}
+
+.pager--theme--reviews .paginator__link:hover {
+    color: #FFFFFF;
+    background: #F5170E;
+    transition-delay: 0.3s;
+}

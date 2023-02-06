@@ -1,0 +1,12 @@
+.inner-section {
+    background: #F4F5F5;
+    min-height: 799px;
+}
+
+.inner-section__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #1A1B1E;
+    margin-top: 62px;
+}

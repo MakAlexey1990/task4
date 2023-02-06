@@ -1,0 +1,28 @@
+.header {
+    min-height: 96px;
+    margin-bottom: 99px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.header__col {
+    display: flex;
+    align-items: center;
+}
+
+.header__col--align--right {
+    justify-content: flex-end;
+}
+
+.header__content-title {
+    font-size: 72px;
+    line-height: 98px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.header__content {
+    margin-bottom: 28px;
+}

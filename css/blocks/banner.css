@@ -1,0 +1,26 @@
+.banner {
+    min-height: 363px;
+    display: flex;
+    background: url(../../img/Rectangle.png) center center no-repeat;
+}
+
+
+.banner__text-wrap {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FFFFFF;
+    max-width: 594px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.banner__container {
+    display: flex;
+}
+
+.banner__photo {
+    padding-top: 22px;
+    margin-left: 24px;
+}

@@ -1,0 +1,35 @@
+.control {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    margin-left: 46px;
+}
+
+.tag {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 11px 17px;
+    background: #E7E7E7;
+    color: #303030;
+    border-radius: 35px;
+    display: inline-block;
+}
+
+.tag--theme-green {
+    background-color: #B9EAE4;
+}
+
+.control__elem {
+    cursor: pointer;
+}
+
+.control__checkbox:checked + .control__tag {
+    background-color: #B9EAE4;
+}
+
+.control__checkbox {
+    appearance: none;
+    position: absolute;
+    left: -9999px;
+}
